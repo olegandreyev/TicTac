@@ -1,0 +1,71 @@
+table{
+  width:100px;
+  height:100px;
+}
+td{
+  border:1px solid black;
+  text-align:center;
+  padding:50px;
+  color:white;
+  font-weight:bold;
+  &.cross{
+    background: url(../resources/cross.png) no-repeat center center;
+    background-size: 80% 80%;
+  }
+  &.zero{
+    background: url(../resources/nol.png) no-repeat center center;
+    background-size: cover;
+  }
+}
+.center{
+  width:300px;
+  height:300px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.promo{
+  width:600px;
+  margin: 43px auto;
+  text-align: center;
+  opacity: 1.0;
+  transition: opacity 0.4s linear;
+  &.true{
+    opacity: 0;
+  }
+  .btn{
+    width: 150px;
+    height: 70px;
+    &:first-child{
+      margin-right: 5px;
+    }
+  }
+  .btns{
+    margin-left: 5px;
+  }
+}
+.promo-ask{
+  text-align: center;
+  font-size:22px;
+}
+.promo-exit{
+  position: absolute;
+  bottom: 115px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  .btn{
+    margin-right: 8px;
+  }
+}
+.alert{
+  width: 387px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 20px;
+  margin-top: -20px;
+}
